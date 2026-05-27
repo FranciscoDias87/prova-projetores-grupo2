@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Projetores - CETI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sistema de Reserva de Projetores</h1>
+        <p>Gerencie os equipamentos da escola</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Projetores em Uso</h2>
+
+           
+            <table border="1">
+
+                <tr>
+                    <th>Projetor</th>
+                    <th>Horário</th>
+                    <th>Professor</th>
+                    <th>Turma</th>
+                </tr>
+
+                <!-- ERRO COMUM:
+                     quantidade errada de td -->
+                <tr>
+                    <td>Projetor 1</td>
+                    <td>08:00</td>
+                    <td>Maria</td>
+                </tr>
+
+                <!-- ERRO COMUM:
+                     ordem confusa das colunas -->
+                <tr>
+                    <td>2º Ano B</td>
+                    <td>Projetor 2</td>
+                    <td>João</td>
+                    <td>09:00</td>
+                </tr>
+
+            </table>
+        </section>
+
+        <aside>
+
+            <h2>Nova Reserva</h2>
+
+            <form>
+
+               
+                <label for="">Nome do Professor</label>
+                <input type="text" id="">
+
+                <br><br>
+
+                <!-- ERRO COMUM:
+                     id duplicado -->
+                <label for="">Data</label>
+                <input type="date" id="">
+
+                <br><br>
+
+                <label for="">Horário</label>
+                <input type="time" id="">
+
+                <br><br>
+
+              
+                <label for="">Projetor</label>
+
+                <select id="">
+                    <option>Projetor 1</option>
+                    <option>Projetor 2</option>
+                    <option>TV</option>
+                </select>
+
+                <br><br>
+
+              
+                <label for="">Contato</label>
+                <input type="text" id="">
+
+                <br><br>
+
+               
+                <button>Reservar</button>
+
+            </form>
+
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pela turma de Informática 2026</p>
+    </footer>
+
+</body>
+
+</html>

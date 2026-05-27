@@ -7,7 +7,7 @@ Arthur | Edson | Edelvan | Francisco Gabriel | Richelmer
 ## 📋 Avaliação do Código HTML
 
 ### 📊 Resumo Geral
-**Nota: 6/10** - O código apresenta uma boa estrutura semântica, mas contém erros significativos em validação de dados e inconsistências na estrutura de elementos.
+**Nota: 3/10** - O código apresenta uma boa estrutura semântica, mas contém erros significativos em validação de dados e inconsistências na estrutura de elementos.
 
 ---
 
